@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #di {
+        width: 100%;
+        height: 180px;
+        background: #ff8400;
+    }
+    #di .q{
+        width: 95%;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        /*将左右空白间距进行分部*/
+        justify-content: space-between;
+        /* justify-content: space-around;*/
+        /*换行*/
+        flex-wrap: wrap;
+        /*将上下空白间距进行分部*/
+        /* align-content: space-between;*/
+      padding-top: 10px;
+
+        color: white;
+
+    }
+    #di .q .w{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    #wrap{
+        width: 95%;
+        height: 150px;
+        margin: auto;
+        border: black 1px solid;
+        border-radius: 10px 10px;
+        background: white;
+
+        position: absolute;
+        left: 2.5%;
+
+        top: 100px;
+    }
+    .wra{
+        width: 95%;
+        height: 150px;
+        margin: auto;
+        border: black 1px solid;
+        border-radius: 10px 10px;
+        background: white;
+
+        position: absolute;
+        left: 2.5%;
+        margin-top: 100px;
+     /*   top: 100px;*/
+
+    }
+    #wrap .f{
+        margin-left: 10px;
+        margin-top: 10px;
+
+    }
+    .t{
+        margin-left: 10px;
+        margin-top: 10px;
+        display: flex;
+        /*将左右空白间距进行分部*/
+         justify-content: space-between;
+        /* justify-content: space-around;*/
+        /*换行*/
+        flex-wrap: wrap;
+        /*将上下空白间距进行分部*/
+        align-content: space-between;
+    }
+    .l{
+        flex: 1;
+    }
+    .h{
+        margin-top: 10px;
+        flex: 2;
+    /*超出部分隐藏*/
+     overflow: hidden;
+      /*!*出省略号的效果*!*/
+      text-overflow: ellipsis;
+        white-space: nowrap;
+}
+    .s{
+       width: 30%;
+       line-height: 20px;
+        background: #c8c8c8;
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: center;
+        opacity: 0.5;
+
+
+    }
+    .w{
+        margin-top: 10px;
+        color: red;
+        font-size: 15px;
+
+    }
+    #de{
+        width: 100%;
+       height: 45px;
+        position:fixed;
+
+        display: flex;
+        border-bottom: solid 1px gainsboro;
+        text-align: center;
+        bottom: 0;
+        background-color: white;
+
+
+    }
+    .z{
+        width: 11%;
+
+        margin-left: 31px;
+        height: 20%;
+        font-size: 10px;
+        /*   padding-top: 10px;*/
+        /*    background: #c8c8c8;*/
+        display: flex;
+        /*将左右空白间距进行分部*/
+         justify-content: space-between;
+        /* justify-content: space-around;*/
+        /*换行*/
+        flex-wrap: wrap;
+        /*将上下空白间距进行分部*/
+        align-content: space-between;
+        background-color: white;
+
+
+
+
+    }
+    #dr{
+        width: 100%;
+        height: 50px;
+        position:fixed;
+
+        display: flex;
+        border-bottom: solid 1px gainsboro;
+
+        bottom: 45px;
+        background-color: white;
+
+
+    }
+    #dr .d{
+        flex: 1;
+        margin: auto;
+        margin-left: 10px;
+    }
+    #dr .g{
+        flex: 1;
+        display: flex;
+     margin: auto;
+    }
+    .o{
+
+        color: red;
+        font-size: 17px;
+
+    }
+    .pt{
+        border-radius: 20px 20px;
+
+        /*border: red solid 1px;*/
+        margin: auto;
+        line-height: 25px;
+        height: 30px;
+        width: 45%;
+        /* margin-left: 100px;
+         margin-bottom:100px;*/
+        background-color: #ff8400;
+        font-size: 15px;
+        text-align: center;
+        color: white;
+
+
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+<div id="di">
+<div class="q">
+    <div class="w"><strong>购物车（2）</strong></div>
+    <div class="e">管理</div>
+</div>
+    <div class="q" style="padding-left: 15px;font-size: 12px;padding-top: 0px">共一件宝贝</div>
+
+</div>
+<div class="d"style="width: 100%;height: 750px;background: #eeeeee">
+
+<div id="wrap">
+    <div class="f">
+        <input type="checkbox" name="fav" >
+        <img src="imgs/TB1hDVeDMTqK1RjSZPhXXXfOFXa-32-32.png" width="14"style="padding-left: 10px;"><span style="padding-left: 10px ;font-size: 14px">怡米儿旗舰店</span>
+        <span class="iconfont" style="font-size: 10px;opacity: 0.5"> &#xe62d;</span>
+        <span style="float: right;font-size: 14px;opacity: 0.5;margin-right: 10px">领卷</span>
+    </div>
+    <div class="t">
+       <div class="l"> <input type="checkbox" name="fav" style="text-align: center">
+        <img src="imgs/O1CN01BYeoF71TZrxihDItn_!!0-item_pic.jpg_1080x1800Q50s50.jpg" width="80"style="padding-left: 10px; "></div>
+        <div class="h"><span style="padding-left: 10px ;font-size: 14px;">大版本正版中小学新编成语词典2020年版初中小学生版专用中华大词典多全功能最新版新华字典现代汉语字典词语小学生四字大全故事书</span>
+            <div class="s">墨绿色<span class="iconfont" style="font-size: 10px;opacity: 0.5"> &#xe668;</span></div>
+            <div class="w">￥99 <input type="number" step="1" min="0" max="50" placeholder="数量" value="1"style="float: right ;margin-right: 10px"></div>
+
+        </div>
+
+    </div>
+</div>
+<div class="wra">
+    <div class="f">
+        <input type="checkbox" name="fav" >
+        <img src="imgs/TB1hDVeDMTqK1RjSZPhXXXfOFXa-32-32.png" width="14"style="padding-left: 10px;"><span style="padding-left: 10px ;font-size: 14px">怡米儿旗舰店</span>
+        <span class="iconfont" style="font-size: 10px;opacity: 0.5"> &#xe62d;</span>
+        <span style="float: right;font-size: 14px;opacity: 0.5;margin-right: 10px">领卷</span>
+    </div>
+    <div class="t">
+       <div class="l"> <input type="checkbox" name="fav" style="text-align: center">
+        <img src="imgs/O1CN01BYeoF71TZrxihDItn_!!0-item_pic.jpg_1080x1800Q50s50.jpg" width="80"style="padding-left: 10px; "></div>
+        <div class="h"><span style="padding-left: 10px ;font-size: 14px;">大版本正版中小学新编成语词典2020年版初中小学生版专用中华大词典多全功能最新版新华字典现代汉语字典词语小学生四字大全故事书</span>
+            <div class="s">浅绿色<span class="iconfont" style="font-size: 10px;opacity: 0.5"> &#xe668;</span></div>
+            <div class="w">￥99 <input type="number" step="1" min="0" max="50" placeholder="数量" value="1"style="float: right ;margin-right: 10px"></div>
+
+        </div>
+
+    </div>
+</div>
+    <div id="de">
+    <div class="z">
+
+      <span class="iconfont" style="font-size: 25px; margin: auto" >&#xe8b9;</span>
+        <div style="  margin-left: 10px"><a href="l.html">首页</a></div>
+
+    </div>
+    <div class="z">
+        <span class="iconfont" style="font-size: 25px;margin: auto">&#xe639;</span><div style="  margin-left: 10px">购物车</div>
+    </div>
+    <div class="z">
+        <span class="iconfont" style="font-size: 25px;margin: auto">&#xe8af;</span><a href="订单列表.html">订单列表</a>
+    </div>
+        <div class="z">
+        <span class="iconfont" style="font-size: 25px;margin: auto">&#xe6a0;</span>我的淘宝
+    </div>
+        <div class="z">
+        <span class="iconfont" style="font-size: 25px;margin: auto">&#xe8b0;</span>  <div style="  margin-left: 10px">更多</div>
+    </div>
+    </div>
+    <div id="dr">
+        <div class="d"><input type="checkbox" name="fav" style="text-align: center">全选</div>
+        <div class="g">
+            <div>合计:</div>
+            <div class="o">￥0</div>
+            <div class="pt">结算（0）</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
